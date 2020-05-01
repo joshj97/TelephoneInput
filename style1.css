@@ -1,0 +1,13 @@
+#textinput {
+    font-size: 25x;
+    text-align: center;
+    border: none;
+    border-bottom: 5px solid red;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+#textinput:focus {
+    border: none;
+    border-bottom: 5px solid red;
+}
