@@ -34,8 +34,7 @@ function myKeyPress(e){
 
   // TODO: Add a condition to ignore entries beyond 10 digits
   
-  //This function checks whether the number in text box is less than or equal to 10
-  //Prevents entering more than 10 numbers
+  //This condition will not allow the user to enter more than 10 digits
   function validCount(value){
     var str=value.replace(/-/g,'');
     return str.length
